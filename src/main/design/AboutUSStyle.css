@@ -1,0 +1,31 @@
+.AboutUs {
+    background: whitesmoke;
+    margin: 10px;
+}
+
+.AboutHeader {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.AboutLogoSpace {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 300px;
+}
+
+.AboutLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.AboutText {
+    font-size: large;
+    padding-left: 20px;
+}

@@ -1,0 +1,73 @@
+.Home {
+    height: 100vh;
+    margin: 10px;
+    background: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.HomeLogoAndText {
+    padding-top: 20px;
+}
+
+.HomeBody {
+    padding: 25px 50px;
+}
+
+.HomeHeader {
+    text-align: center;
+    padding: 50px 50px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    letter-spacing: -0.015em;
+    color: #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.HomeLogoSpace {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.HomeLogo {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.HomeCol {
+    margin-bottom: 10px;
+}
+
+.HomeName {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.HomeDesc {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 450px) {
+    .HomeHeader {
+        font-size: unset;
+    }
+
+    .HomeBody {
+        padding: 5px 10px;
+    }
+}

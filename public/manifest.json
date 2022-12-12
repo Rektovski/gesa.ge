@@ -1,7 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "description": "",
+  "short_name": "GESA",
+  "name": "Georgian European Studies Association",
+  "description": "Website is made about GESA Organization",
   "icons": [
     {
       "src": "favicon.ico",
