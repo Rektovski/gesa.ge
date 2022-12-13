@@ -1,0 +1,128 @@
+.Navbar {
+    width: 100%;
+    padding: 5px;
+    z-index: 1111;
+    transition: 1s all ease-in-out;
+    background: rgba(2, 0, 0, 0.75);
+}
+
+.NavbarTags {
+    color: whitesmoke;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.NavbarTags:hover {
+    transition: .3s;
+    background: rebeccapurple;
+}
+
+.NavbarName {
+    font-size: 2rem;
+}
+
+.navbarLogo {
+    width: 40px;
+    height: 50px;
+}
+
+.NavbarMenuIcon {
+    position: fixed;
+    top: 15px;
+    left: 85%;
+    z-index: 1;
+}
+
+.NavbarBurger {
+    margin-right: 10px;
+}
+
+.navbarLinks {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    font-size: 1.4rem;
+}
+
+.navbarLinks:hover {
+    transition: .3s;
+    border: 0;
+    background: #d02828;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@keyframes MenuLinks {
+    0% {
+        height: 0;
+        color: rgba(0, 0, 0, 0.75);
+    }
+    100% {
+        color: whitesmoke;
+        height: 45px;
+    }
+}
+
+@media (max-width: 750px) {
+    .navbarLinks {
+        animation: 1s forwards MenuLinks;
+        padding: 10px;
+    }
+
+    .navbarLinks:hover {
+        border-radius: 20px;
+    }
+}
+
+.navbarLinks:active {
+    background: whitesmoke;
+    color: black;
+    border-radius: 0;
+    border: none;
+}
+
+.rectangle1, .rectangle2, .rectangle3 {
+    height: 2px;
+    width: 44px;
+    background: #ffffff;
+    margin-bottom: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.rectangle1, .rectangle3 {
+    color: red;
+}
+
+.rectangle2 {
+    color: white
+}
+
+.menuNavbarLinks {
+    animation: 1s ease-in-out Menu;
+    position: fixed;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.75);
+    border: 0;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: grid;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .Navbar {
+        padding-top: 22px;
+    }
+}
